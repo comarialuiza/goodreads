@@ -6,8 +6,8 @@ const Book: React.FC = () => {
         <Container>
             <Visual>
                 <Image
-                    src="/images/bookcover.jpg"
-                    alt="Picture of the author"
+                    src='/images/bookcover.jpg'
+                    alt='Plain Bad Heroines'
                     width={150}
                     height={226}
                 />

@@ -1,8 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;500&display=swap');
-
     * {
         margin: 0;
         padding: 0;
@@ -17,6 +15,10 @@ const GlobalStyle = createGlobalStyle`
         --color-text-title: #333;
         --color-text-complement: #9C98A6;
         --color-white: #FFFFFF;
+    }
+
+    body {
+        background-color: var(--color-background);
     }
 
     html, body, #root {
