@@ -41,6 +41,12 @@ const GlobalStyle = createGlobalStyle`
     ul {
         list-style: none;
     }
+
+    .container {
+        padding: 20px;
+        background-color: var(--color-white);
+        border-radius: 20px;
+    }
 `;
 
 export default GlobalStyle;

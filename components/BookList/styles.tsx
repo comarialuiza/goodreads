@@ -1,9 +1,6 @@
 import styled from 'styled-components'
 
 export const Container = styled.div`
-    padding: 20px;
-    background-color: var(--color-white);
-    border-radius: 20px;
 `;
 
 export const Title = styled.h2`

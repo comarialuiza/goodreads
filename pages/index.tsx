@@ -1,6 +1,8 @@
 import Head from 'next/head'
 
-import BookList from '../components/BookList';
+import LeftMenu from '../components/LeftMenu';
+import Feed from '../components/Feed';
+import RightMenu from '../components/RightMenu';
 import Header from '../components/Header';
 import GlobalStyle from '../styles/global';
 
@@ -19,9 +21,9 @@ export default function Home() {
       <Container>
         <Header />
         <GridContainer>
-          <BookList />
-          <BookList />
-          <BookList />
+          <LeftMenu />
+          <Feed />
+          <RightMenu />
         </GridContainer>
       </Container>
       <GlobalStyle />
