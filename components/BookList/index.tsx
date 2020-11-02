@@ -1,16 +1,23 @@
-import { Container, Title, Description } from './styles';
+import { Container } from './styles';
 
 import Book from '../Book';
 
-const BookList: React.FC = () => {
+export enum TypesOfList {
+  Condensed,
+  Expanded
+}
+export interface Props {
+  type: TypesOfList
+}
+
+const BookList: React.FC<Props> = ({type}) => {
   return (
-    <Container>
-      <Title>Recommendations</Title>
-      <Description>Because you are currently reading Bad Plain Heroines...</Description>
-      <Book />
-      <Book />
-      <Book />
-      <Book />
+    <Container type={ type }>
+      <Book type={ type }/>
+      <Book type={ type }/>
+      <Book type={ type }/>
+      <Book type={ type }/>
+      <Book type={ type }/>
     </Container>
   );
 }

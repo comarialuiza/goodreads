@@ -49,5 +49,5 @@ export const User = styled.button`
     border-radius: 50%;
     outline: 0;
     border: 0;
-    color: var(--color-primary);
+    background-color: var(--color-primary);
 `;

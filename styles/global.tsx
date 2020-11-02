@@ -1,4 +1,4 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
     * {
@@ -8,8 +8,8 @@ const GlobalStyle = createGlobalStyle`
     }
 
     :root {
-        --color-background: #faf7f5;
-        --color-primary: #667acd;
+        --color-background: #dadad2;
+        --color-primary: #7d887a;
         --color-secondary: #f1833b;
         --color-tertiary: #726D81;
         --color-text-title: #333;
@@ -47,6 +47,13 @@ const GlobalStyle = createGlobalStyle`
         background-color: var(--color-white);
         border-radius: 20px;
     }
+`;
+
+export const Title = styled.h2`
+    color: var(--color-text-title);
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 16px;
 `;
 
 export default GlobalStyle;

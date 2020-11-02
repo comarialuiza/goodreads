@@ -1,18 +1,20 @@
 import styled from 'styled-components'
+import { TypesOfList } from '../BookList';
 
-export const Container = styled.div`
-    display: flex;
+export const Container = styled.div<{ type: TypesOfList}>`      
+    display: ${({type}) => type === TypesOfList.Expanded ? 'flex' : 'block'};
     align-items: flex-start;
     justify-content: space-between;
     margin-bottom: 20px;
 `;
 
 export const Visual = styled.div`
-    width: 100px;
     margin-right: 20px;
+    max-width: 100px;
 
     img {
         border-radius: 4px;
+        width: 100%;
     }
 `;
 

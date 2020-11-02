@@ -1,11 +1,15 @@
-import { Container } from './styles';
+import { Container, Title, Description } from './styles';
+
+import { TypesOfList } from '../BookList';
 
 import BookList from '../BookList';
 
 const RightMenu: React.FC = () => {
     return (
         <Container className="container">
-            <BookList />
+            <Title>Recommendations</Title>
+            <Description>Because you are currently reading Bad Plain Heroines...</Description>
+            <BookList type={ TypesOfList.Expanded } />
         </Container>
     );
 }
