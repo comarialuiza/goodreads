@@ -1,11 +1,11 @@
 import { Container } from './styles';
 
-import BookList from '../BookList';
+import CommentList from '../CommentList';
 
 const Feed: React.FC = () => {
     return (
         <Container className="container">
-           <BookList />
+           <CommentList />
         </Container>
     );
 }
