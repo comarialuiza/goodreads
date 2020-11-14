@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { TypesOfList } from '../BookList';
+import { TypesOfList } from '../../types/BookTypes';
 
 export const Visual = styled.div`
     margin-right: 20px;

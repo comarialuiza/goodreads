@@ -2,7 +2,7 @@ import { Container } from './styles';
 import { Title } from '../../styles/global';
 import BookList from '../BookList';
 
-import { TypesOfList } from '../BookList';
+import { TypesOfList } from '../../types/BookTypes';
 
 const WantToRead: React.FC = () => {
     return(

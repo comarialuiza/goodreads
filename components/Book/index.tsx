@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { Container, Title, Author, Description, Visual, Content } from './styles';
 
-import { Props as BookListProps, TypesOfList } from '../BookList';
+import { BookListProps, TypesOfList } from '../../types/BookTypes';
 
 interface Props extends BookListProps {
 

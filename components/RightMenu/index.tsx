@@ -1,6 +1,6 @@
 import { Container, Title, Description } from './styles';
 
-import { TypesOfList } from '../BookList';
+import { TypesOfList } from '../../types/BookTypes';
 
 import BookList from '../BookList';
 
