@@ -1,10 +1,15 @@
-import { Container, ReadIn, CommentBody } from './styles';
+
+import { Container, ReadIn, CommentBody, User, UserImage, UserName } from './styles';
 import Book from '../Book';
 import { TypesOfList } from '../../types/BookTypes';
 
 const Comment: React.FC = () => {
     return (
         <Container>
+            <User>
+                <UserName>Bonbon Cake</UserName>
+            </User>
+
             <Book type={ TypesOfList.Expanded } />
             <ReadIn>Read in Nov 2020</ReadIn>
 

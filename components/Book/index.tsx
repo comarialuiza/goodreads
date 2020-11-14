@@ -1,4 +1,4 @@
-import Image from 'next/image'
+import Image from 'next/image';
 import { Container, Title, Author, Description, Visual, Content } from './styles';
 
 import { BookListProps, TypesOfList } from '../../types/BookTypes';
