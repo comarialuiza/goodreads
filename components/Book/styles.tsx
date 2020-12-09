@@ -43,7 +43,12 @@ export const Author = styled.p`
 export const Description = styled.p`
     font-size: 14px;
     line-height: 20px;
-    max-height: 82px;
     color: var(--color-tertiary);
+    overflow: hidden;
+    text-align: justify;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
 `;
 
