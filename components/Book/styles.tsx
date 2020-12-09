@@ -44,7 +44,6 @@ export const Description = styled.p`
     font-size: 14px;
     line-height: 20px;
     max-height: 82px;
-    overflow: hidden;
     color: var(--color-tertiary);
 `;
 

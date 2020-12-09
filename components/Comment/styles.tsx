@@ -2,6 +2,8 @@ import Image from 'next/image';
 import styled from 'styled-components';
 
 export const Container = styled.div`
+    position: relative;
+
     &:not(:last-of-type) {
         margin-bottom: 20px;
     }
@@ -31,6 +33,10 @@ export const ReadIn = styled.p`
     font-size: 12px;
     color: var(--color-text-complement);
     margin-bottom: 12px;
+
+    position: absolute;
+    top: 20px;
+    right: 20px;
 `;
 
 export const CommentBody = styled.div`

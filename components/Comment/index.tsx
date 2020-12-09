@@ -5,7 +5,7 @@ import { TypesOfList } from '../../types/BookTypes';
 
 const Comment: React.FC = () => {
     return (
-        <Container>
+        <Container className="container">
             <User>
                 <UserName>Bonbon Cake</UserName>
             </User>

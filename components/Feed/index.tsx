@@ -4,9 +4,7 @@ import CommentList from '../CommentList';
 
 const Feed: React.FC = () => {
     return (
-        <Container className="container">
-           <CommentList />
-        </Container>
+        <CommentList />
     );
 }
 
